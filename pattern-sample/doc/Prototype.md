@@ -29,3 +29,5 @@
 我们将创建一个抽象类 Shape 和扩展了 Shape 类的实体类。下一步是定义类 ShapeCache，该类把 shape 对象存储在一个 Hashtable 中，并在请求的时候返回它们的克隆。
 
 PrototypPatternDemo，我们的演示类使用 ShapeCache 类来获取 Shape 对象。
+
+![](img/prototype_pattern_uml_diagram.jpg)
