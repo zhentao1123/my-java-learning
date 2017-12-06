@@ -4,13 +4,13 @@ public class ShapeFactory extends AbstractFactory {
 	
 	@Override
 	public Shape getShape(String shape) {
-		if("Circle".equals(shape)) {
+		if("CIRCLE".equals(shape)) {
 			return new Circle();
 		}
-		else if("Square".equals(shape)) {
+		else if("SQUARE".equals(shape)) {
 			return new Square();
 		}
-		else if("Rectangle".equals(shape)) {
+		else if("RECTANGLE".equals(shape)) {
 			return new Rectangle();
 		}
 		return null;

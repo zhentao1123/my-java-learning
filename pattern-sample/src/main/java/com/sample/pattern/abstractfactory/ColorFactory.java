@@ -9,13 +9,13 @@ public class ColorFactory extends AbstractFactory {
 
 	@Override
 	public Color getColor(String color) {
-		if("Blue".equals(color)) {
+		if("BLUE".equals(color)) {
 			return new Blue();
 		}
-		else if("Red".equals(color)) {
+		else if("RED".equals(color)) {
 			return new Red();
 		}
-		else if("Green".equals(color)) {
+		else if("GREEN".equals(color)) {
 			return new Green();
 		}
 		return null;

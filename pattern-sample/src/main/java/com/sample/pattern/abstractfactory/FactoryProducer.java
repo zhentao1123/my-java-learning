@@ -2,9 +2,9 @@ package com.sample.pattern.abstractfactory;
 
 public class FactoryProducer {
 	public static AbstractFactory getFactory(String choice) {
-		if (choice.equalsIgnoreCase("Shape")) {
+		if (choice.equalsIgnoreCase("SHAPE")) {
 			return new ShapeFactory();
-		} else if (choice.equalsIgnoreCase("Color")) {
+		} else if (choice.equalsIgnoreCase("COLOR")) {
 			return new ColorFactory();
 		}
 		return null;

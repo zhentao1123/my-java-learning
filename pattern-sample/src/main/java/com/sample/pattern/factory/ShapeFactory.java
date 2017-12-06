@@ -3,13 +3,13 @@ package com.sample.pattern.factory;
 public class ShapeFactory {
 	
 	public Shape getShape(String shapeType) {
-		if("Circle".equals(shapeType)) {
+		if("CIRCLE".equals(shapeType)) {
 			return new Circle();
 		}
-		else if("Square".equals(shapeType)) {
+		else if("SQUARE".equals(shapeType)) {
 			return new Square();
 		}
-		else if("Rectangle".equals(shapeType)) {
+		else if("RECTANGLE".equals(shapeType)) {
 			return new Rectangle();
 		}
 		return null;
